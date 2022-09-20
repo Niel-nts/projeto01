@@ -51,7 +51,7 @@ main section{
     max-width: 580px;
     width: 90%;
     margin: 32px auto;
-    display: grid;
+    display: flex;
     gap: 24px;  
     animation: fromBottom .7s backwards;  
 
@@ -143,3 +143,24 @@ ul li:hover {
         transform: translateY(0);
     }
 }
+
+/*Swiper*/
+
+main {
+    max-width: 460px;
+    margin: auto;
+}
+
+section {
+    overflow: hidden;
+}
+
+ul {    
+    flex-wrap: nowrap;
+    gap: 0;
+}
+
+main section {
+    display: block;
+}
+
